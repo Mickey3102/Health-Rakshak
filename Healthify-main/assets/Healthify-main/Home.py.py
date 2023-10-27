@@ -18,7 +18,7 @@ def home():
         st.write("")
 
     with col2:
-        st.image("assets/logo_rounded.png")
+        st.image("Healthify-main/assets/Healthify-main/assets/logo_rounded.png")
 
     with col3:
         st.write("")
