@@ -7,9 +7,9 @@ def home():
         page_title="Health Rakshak - Home",
         page_icon="👨‍⚕️",
     )
-    st.sidebar.info(
-        "**About**: This project is made using publicly available data and comes with no gaurantee. We do not store any of the patient's personal information."
-    )
+    # st.sidebar.info(
+    #     "**About**: This project is made using publicly available data and comes with no gaurantee. We do not store any of the patient's personal information."
+    # )
 
     # st.markdown(f"<h1 style='text-align: center; color: blue; font-size: 50px;'>Health Rakshak</h1>", unsafe_allow_html=True)
     col1, col2, col3 = st.columns([1, 6, 1])
